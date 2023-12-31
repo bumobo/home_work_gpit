@@ -183,8 +183,7 @@ for t in full_path:                                #цикл розпізнав�
             rm_empty_dir(path_folder_finish)
             
              
-#            print(t, res[1], 'documents')
-#            print(result, '-- documents')
+
             
         elif 14 <= ALL_EXPANSION.index(res[1]) <= 17:
             foldername = 'audio'
@@ -253,9 +252,8 @@ for t in full_path:                                #цикл розпізнав�
 
 
 
-#name_table = ''
 counter = 0
-#header = '|{:^55}|'.format(name_table)
+
 separator = '-' * 55
 colums_name = '|{:^32}|{:^22}|'.format('file name', 'file extension')
 colums = ''
@@ -289,7 +287,4 @@ for folder in all_folder:
             print(colums)
     counter += 1
 
-#table = '\n'.join([separator, header, separator, colums_name, separator, colums])
 
-
-#print(table)

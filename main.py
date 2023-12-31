@@ -1,14 +1,4 @@
-import re
+a = 'Stvoryty_tochkovyi_rysunok.zip'
 
-a = 'D:/test/Новий текстовий документ (3).txt'
-
-def normalize(path):
-    reg = r'\b/[\w\d\W ]+$'
-    res = re.findall(reg, a)
-    
-    return res
-
-
-
-
-print(normalize(a))
+res = a.rsplit('.')
+print(res[0])
